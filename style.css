@@ -1,4 +1,4 @@
- /*body {
+/*body {
     margin: 0px;
 }
 
@@ -29,10 +29,10 @@ margin: 50px;
 #box1 {
     background-color: lightgreen;
     /* margin-top: 50px; */
-    /* margin-bottom: 50px; */
-    /* margin-left: 50px; */
-    /* margin-right: 50px; */
-    /* margin-left: auto; */
+/* margin-bottom: 50px; */
+/* margin-left: 50px; */
+/* margin-right: 50px; */
+/* margin-left: auto; */
 /* margin-right: auto; */
 /* margin: auto;
 
@@ -128,8 +128,8 @@ inline - do not start a new line width is limted to what the content (span, a, i
     /* min-height: 50%;
     /* max-height: 50%; */
 
-    /* max-width: 10%; */
-    /* min-width: 30%; 
+/* max-width: 10%; */
+/* min-width: 30%; 
     
 }  
   
@@ -141,7 +141,7 @@ inline - do not start a new line width is limted to what the content (span, a, i
     /* position: relative;
     top: 100px;
     left: 100px; */
-    /* position: fixed;
+/* position: fixed;
     right: 0px;
     bottom: 0px;
     left: 0px; 
@@ -168,12 +168,11 @@ inline - do not start a new line width is limted to what the content (span, a, i
    top: 25px;
    left: 25px;
 
-}  */
+} 
 
 #container {
     border: 2px solid;
-}
-
+}  */
 
 /* #container p{
     background-color: yellow;
@@ -187,29 +186,141 @@ inline - do not start a new line width is limted to what the content (span, a, i
 }
 #container + p{
     background-color: yellow;
-} */
+}
 
 
+a:hover {
+    color: red;
+    font-size: 1.1em;
+}  
+
+a:active {
+    color: limegreen;
+    font-size: 1.1em ;
+}
+
+a:visited {
+    color: peru;
+} 
+
+li:hover{
+    background-color: lawngreen;
+} 
 
 
+li:not(:hover) {
+    background-color: lightblue;
+}  
+
+li:nth-child(2n+1) {
+    background-color: yellow;
+} 
 
 
+#greeting p {
+    background-color: lightgreen;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
+
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: lightgreen;
+}
+
+p::selection {
+    color: white;
+    background-color: red;
+}
+
+#fruit li::before {
+    content: "✔️";
+}
+
+#orange::after {
+    content: "🍊";
+}
+#kiwi::after {
+    content: "🥝";
+}
+#apple::after {
+    content: "🍎";
+}
 
 
+#fruit li::marker {
+    content: "😒";
+} 
 
 
+.pagination {
+    text-align: center;
+
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    display: inline-block;
+}
 
 
+.pagination a.active {
+    background-color: lawngreen;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
+.pagination a:hover:not(.active) {
+    background-color: lightgrey;
+    border-radius: 5px;
+} 
 
+.dropdown {
+    display: inline-block;
+}
 
+.dropdown button {
+  background-color: gray;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
 
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
 
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color:  lightgrey;
+    min-width: 100px;
+    box-shadow: 2px 2px 4px;
+}
 
+.dropdown:hover .content{
+    display: block;
+}
 
+.dropdown:hover button {
 
+    background-color: lightgrey;
+}
 
-
-
-
-
+.dropdown a:hover {
+    background-color: lightgreen;
+}  */
