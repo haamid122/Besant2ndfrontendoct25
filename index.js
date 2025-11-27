@@ -2,6 +2,8 @@
 // console.log(`I love javascript`);
 // console.log('I love javascript');
 
+// const { isValidElement } = require("react");
+
 // const { use } = require("react");
 
 // window.alert("Hai welocome to javascript qworld");
@@ -506,3 +508,111 @@ const temp = 25;
 //     }
 
 // } while(!loggedIn);
+
+// for loop - repeat some code a limited amount of time 
+
+
+//      1         2     4th
+// for(let i = 1; i <= 3; i++) {
+//  // 3rd step
+
+//     console.log(i);
+// }
+
+// i = 1   1
+// i = 2 
+// i = 3
+// i = 4
+
+// for(let i = 1; i <= 20; i++) {
+//     if(i == 13) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// for(let i = 1; i <= 20; i++) {
+//     if(i == 13) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// fuctions - a sections reusable code 
+// declare code onece, use it whenever we want
+// call the funtion to execute the code
+
+// function happyBirthday() {
+//     console.log("happy birthday to you");
+//     console.log("happy birthday to you");
+//     console.log("happy birthday dear you");
+//     console.log("happy birthday dear you!!!");
+// }
+
+// function happyBirthday(username, age) {
+//     console.log("happy birthday to you");
+//     console.log("happy birthday to you");
+//     console.log(`happy birthday dear ${username}`);
+//     console.log("happy birthday dear you!!!");
+//     console.log(`you are ${age} years old`);
+// }
+
+// happyBirthday("hissam", 22);
+// happyBirthday("siva", 21);
+// happyBirthday("kumar", 24);
+
+
+
+// function add(x, y) {
+//     let result = x + y;
+//     return result;
+// }
+
+// function add(x, y) {
+//     return x + y;
+// }
+
+// function isEven(number) {
+    // if(number % 2 === 0) {
+    //     return true;
+    // } else {
+    //     return false;
+    // }
+    // return number % 2 === 0 ? true : false;
+// }
+
+
+// console.log(add(23, 59));
+// console.log(isEven(18));
+
+// function isValidEmail(email) {
+
+//    if(email.includes("@")) {
+//       return true;
+//    } else {
+//     return false;
+//    }
+// return email.includes("@") ? true : false;
+ 
+// }
+
+// console.log(isValidEmail("hisamgmail.com"));
+
+// vraibale scope - whare a varaibe is recognized and accessable (local vs global)
+
+
+
+
+// function func1() {
+//     let x = 2;
+//     console.log(x);
+// }
+// function func2() {
+//     let x = 2;
+//     console.log(x);
+// }
+
+// func1();
+// func2();
+
+
